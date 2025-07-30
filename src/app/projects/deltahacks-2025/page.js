@@ -1,6 +1,11 @@
 import Header from '@/components/header.js';
 import Tag from '@/components/tag.js';
 
+export const metadata = {
+  title: "Deltahacks 2025",
+  description: "Hackathon Project",
+};
+
 export default function RobloxGamePage() {
   return (
     <div className="max-w-3xl mx-auto px-4">

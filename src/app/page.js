@@ -52,7 +52,7 @@ export default function Home() {
                 className = "mx-3">
                 </HoverButton>
 
-            )}
+                )}
             </div>
 
             <div>

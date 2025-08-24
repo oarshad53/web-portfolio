@@ -5,17 +5,17 @@ import ProjectButton from "@/components/projectbutton.js";
 import GitHubButton from "@/components/githubbutton.js";
 
 const welcomeParagraph = `Hello and welcome to my portfolio. I am a second year Computer Engineering student at McMaster University. 
-My primary interests in ECE are in embedded systems, both low and high level programming, and PCB design, to name a few. My projects, 
-skillset, and relevant courses are outlined below and I hope to showcase some of my skills here.`
+My primary interests in ECE are in embedded systems, both low and high level programming, and PCB design, to name a few. I also
+enjoy programming, mostly backend work, but I am also able to do frontend. My projects, skillset, and relevant courses are outlined below and I hope to showcase some of my skills here.`
 
 const skills = [
-    { iconPath: "/icons/altiumicon.png", text: "Altium Designer"},
+    { iconPath: "/icons/pythonicon.png", text: "Python"},
     { iconPath: "/icons/arduinoicon.png", text: "Arduino"},
     { iconPath: "/icons/autodeskicon.png", text: "Autodesk Inventor"},
     { iconPath: "/icons/giticon.png", text: "Git"},
     { iconPath: "/icons/luauicon.png", text: "Luau"},
-    { iconPath: "/icons/nexticon.png", text: "Next.js"},
-    { iconPath: "/icons/pythonicon.png", text: "Python"},
+    { iconPath: "/icons/javaicon.png", text: "Java"},
+    { iconPath: "/icons/nexticon.png", text: "Next.js and JavaScript"},
     { iconPath: "/icons/tailwindicon.png", text: "Tailwind CSS"},
     { iconPath: "/icons/cppicon.png", text: "C++"}
 ];

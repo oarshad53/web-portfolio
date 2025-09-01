@@ -3,7 +3,6 @@ import Typewriter from "@/components/typewriter.js";
 import HoverButton from "@/components/hoverbutton.js";
 import ProjectButton from "@/components/projectbutton.js";
 import GitHubButton from "@/components/githubbutton.js";
-import { Analytics } from "@vercel/analytics/next";
 
 const welcomeParagraph = `Hello and welcome to my portfolio. I am a second year Computer Engineering student at McMaster University. 
 My primary interests in ECE are in embedded systems, both low and high level programming, and PCB design, to name a few. I also

@@ -76,7 +76,7 @@ export default function Home() {
                 iconPath = "/icons/snakeicon.png" 
                 text = "Terminal-Based Snake Game"
                 textClassName = "text-2x1 font-bold font-outfit text-black"
-                href = "/projects/deltahacks-2025/">
+                href = "/projects/snake-game/">
                 </ProjectButton>
 
             </div>

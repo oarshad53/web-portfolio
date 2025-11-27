@@ -71,6 +71,7 @@ export default function Home() {
                 textClassName = "text-2x1 font-bold font-outfit text-black"
                 href = "/projects/deltahacks-2025/">
                 </ProjectButton>
+                <div className = "p-3"></div>
 
                 <ProjectButton 
                 iconPath = "/icons/snakeicon.png" 

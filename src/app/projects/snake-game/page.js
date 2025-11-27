@@ -39,11 +39,11 @@ export default function SnakeGamePage() {
         growth improved my low-level problem-solving and gave me practical experience building a complete system from simple components.
       </p>
 
-      <video autoPlay muted loop width="w-fill" height="240" controls preload="auto">
+      {/*<video autoPlay muted loop width="w-fill" height="240" controls preload="auto">
         <source src="/videos/roblox-project-video.mp4" type="video/mp4" />
 
         Your browser does not support playback of this video.
-      </video>
+      </video>*/}
 
     </div>
   );

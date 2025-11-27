@@ -72,6 +72,13 @@ export default function Home() {
                 href = "/projects/deltahacks-2025/">
                 </ProjectButton>
 
+                <ProjectButton 
+                iconPath = "/icons/snakeicon.png" 
+                text = "Terminal-Based Snake Game"
+                textClassName = "text-2x1 font-bold font-outfit text-black"
+                href = "/projects/deltahacks-2025/">
+                </ProjectButton>
+
             </div>
 
             <Header className = "text-3xl font-bold font-outfit pt-10 pb-2">Relevant Courses</Header>

@@ -43,8 +43,8 @@ export default function Macropad() {
         This project strengthened my understanding of the full PCB design workflow, from translating functional
         requirements into a schematic to resolving routing constraints and validating designs with DRC checks.
         I also gained experience integrating firmware with custom hardware and coordinating mechanical and
-        electrical constraints. Overall, the hackpad was a hands-on exercise in building a complete embedded
-        system from concept to physical device.
+        electrical constraints. Overall, the macropad design and assembly was a fun way to gain some experience
+        making a mini mechanical keyboard and I certainly learned a lot about electronics design, manufacturing, and assembly.
       </p>
 
       {/*<div className = "flex justify-center">

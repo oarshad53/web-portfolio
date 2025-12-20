@@ -2,14 +2,14 @@ import Header from '@/components/header.js';
 import Tag from '@/components/tag.js';
 
 export const metadata = {
-  title: "Custom Hackpad",
+  title: "Custom Macropad",
   description: "Mechanical Keyboard and PCB Design Project",
 };
 
 export default function Macropad() {
   return (
     <div className="max-w-3xl mx-auto px-4">
-      <Header className="text-3xl font-bold font-outfit pt-10 pb-3">Custom 9-Key Hackpad: PCB, Firmware, and Enclosure Design</Header>
+      <Header className="text-3xl font-bold font-outfit pt-10 pb-3">Custom 9-Key Macropad: PCB, Firmware, and Enclosure Design</Header>
 
       <div className = "flex flex-row pb-5">
         {/*Project Tags*/}
@@ -19,7 +19,7 @@ export default function Macropad() {
       </div>
 
       <p className="font-outfit text-lg">
-        This project is a fully custom-designed 9-key mechanical hackpad developed from the schematic level
+        This project is a fully custom-designed 9-key mechanical macropad developed from the schematic level
         through PCB layout, firmware, and enclosure design. I designed the complete electrical schematic and
         routed the PCB to support direct pin scanning, USB connectivity, and an SSD1306 OLED display over I²C.
         The finished board runs KMK firmware and provides real-time feedback via the OLED, displaying the most
@@ -49,7 +49,7 @@ export default function Macropad() {
 
       {/*<div className = "flex justify-center">
       <video autoPlay muted loop width="w-fill" height="240" controls preload="auto">
-        <source src="/videos/hackpad.mov" type="video/mp4" />
+        <source src="/videos/macropad.mov" type="video/mp4" />
 
         Your browser does not support playback of this video.
       </video>

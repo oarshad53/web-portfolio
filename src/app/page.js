@@ -12,7 +12,7 @@ const skills = [
     { iconPath: "/icons/pythonicon.png", text: "Python"},
     { iconPath: "/icons/arduinoicon.png", text: "Arduino"},
     { iconPath: "/icons/autodeskicon.png", text: "Autodesk Inventor"},
-    { iconPath: "/icons/giticon.png", text: "Git"},
+    { iconPath: "/icons/kicadicon.png", text: "KiCad"},
     { iconPath: "/icons/luauicon.png", text: "Luau"},
     { iconPath: "/icons/javaicon.png", text: "Java"},
     { iconPath: "/icons/nexticon.png", text: "Next.js and JavaScript"},
@@ -57,6 +57,14 @@ export default function Home() {
 
             <div>
                 <Header className = "text-3xl font-bold font-outfit pt-10 pb-5">Projects</Header>
+                <ProjectButton 
+                iconPath = "/icons/macropadicon.png" 
+                text = "Macropad"
+                textClassName = "text-2x1 font-bold font-outfit text-black"
+                href = "/projects/macropad/">
+                </ProjectButton>
+                <div className = "p-3"></div>
+
                 <ProjectButton 
                 iconPath = "/icons/roblox.png" 
                 text = "Game on ROBLOX Platform"

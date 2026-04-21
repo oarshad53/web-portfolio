@@ -272,7 +272,7 @@ export default function Home() {
           href="https://github.com/oarshad53/"
           target="_blank"
           className="
-            px-7 py-3 rounded-full
+            px-7 py-1.5 rounded-full
             bg-purple-500/20 border border-purple-400/30
             hover:bg-purple-500/30 hover:scale-105
             hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]

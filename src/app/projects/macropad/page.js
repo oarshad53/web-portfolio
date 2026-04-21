@@ -71,7 +71,31 @@ export default function Macropad() {
         I also gained experience integrating firmware with custom hardware and coordinating mechanical and
         electrical constraints. Overall, the macropad design and assembly was a fun way to gain experience
         making a mini mechanical keyboard and I learned a lot about electronics design, manufacturing, and assembly.
+
+        The videos below showcase the keyboard working, as well as an oscilloscope test I conducted to verify voltage
+        levels when switching.
       </p>
+
+      <div className="flex justify-center mt-6">
+        <video autoPlay muted loop controls preload="auto" className="rounded-xl border border-white/10 shadow-lg">
+          <source src="/videos/macropad-1.mp4" type="video/mp4" />
+          Your browser does not support playback of this video.
+        </video>
+      </div>
+
+      <div className="flex justify-center mt-6">
+        <video autoPlay muted loop controls preload="auto" className="rounded-xl border border-white/10 shadow-lg">
+          <source src="/videos/macropad-2.mp4" type="video/mp4" />
+          Your browser does not support playback of this video.
+        </video>
+      </div>
+
+      <div className="flex justify-center mt-6">
+        <video autoPlay muted loop controls preload="auto" className="rounded-xl border border-white/10 shadow-lg">
+          <source src="/videos/macropad-3.mp4" type="video/mp4" />
+          Your browser does not support playback of this video.
+        </video>
+      </div>
 
     </div>
   );

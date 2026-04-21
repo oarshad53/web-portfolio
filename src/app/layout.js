@@ -19,14 +19,15 @@ const outfit = Outfit({
 
 export const metadata = {
   title: "Omar Arshad",
-  description: "Using Next.js",
+  description: "Portfolio",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${outfit.className} ${geistMono.variable} antialiased`}
+        //className={`${geistSans.variable} ${outfit.className} ${geistMono.variable} antialiased`}
+        className="bg-gradient-to-b from-[#0A0510] via-[#120A1C] to-black text-white font-sans"
       >
         {children}
         <Analytics />

@@ -265,26 +265,6 @@ export default function Home() {
 
 </section>
 
-      {/* COURSES */}
-      <section className="bg-black px-10 lg:px-24 py-20">
-
-        <h2 className="text-3xl font-bold mb-8 text-white">
-          Relevant Courses
-        </h2>
-
-        <div className="p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md">
-
-          <ul className="space-y-2 text-white/70">
-            <li>COMPENG 2DI4 - Logic Design</li>
-            <li>COMPENG 2DX3 - Microprocessor Systems Project</li>
-            <li>COMPENG 2SI3 - Data Structures & Algorithms</li>
-            <li>ELECENG 2CF3 - Circuits and Waves</li>
-            <li>ELECENG 2EI4 - Electronic Devices</li>
-          </ul>
-
-        </div>
-      </section>
-
       {/* GITHUB */}
       <section className="bg-black px-10 lg:px-24 py-20 flex justify-center">
 
